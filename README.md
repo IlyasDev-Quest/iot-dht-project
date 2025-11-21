@@ -68,6 +68,12 @@ Run the FastAPI server:
 fastapi dev main.py
 ```
 
+Seed initial db data:
+
+```bash
+python -m db.seed
+```
+
 The backend should now be running at http://127.0.0.1:8000.
 
 ### 3. Frontend Setup (Next.js)
