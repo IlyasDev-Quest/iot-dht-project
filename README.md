@@ -62,6 +62,12 @@ Install backend dependencies:
 pip install -r requirements.txt
 ```
 
+Create a local environment file:
+
+```bash
+cp .env.example .env
+```
+
 Run the FastAPI server:
 
 ```bash
